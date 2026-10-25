@@ -8,14 +8,12 @@ A responsive, dark-themed portfolio built with plain HTML, CSS, and JavaScript. 
 - Project filters: All, Office, Freelance, Websites
 - Android, iOS, and website links supplied by Sai Gopi
 - Professional introduction and technology stack
-- No invented project metrics or project-specific responsibilities
+- Download ranges and screenshots come from the public Google Play, App Store, and website listings. Ranges such as 10K+ are store buckets, not exact totals
+- No invented project-specific responsibilities
 
 ## Before publishing
 
-1. Open `index.html`.
-2. Replace the LinkedIn link (`https://www.linkedin.com/`) with your actual profile URL.
-3. Replace `YOUR_EMAIL@example.com` in `script.js` and the related button label/note in `index.html` with your real email.
-4. Review project labels and links. The portfolio intentionally avoids claiming specific responsibilities for individual projects.
+Review project labels and links. The portfolio intentionally avoids claiming specific responsibilities for individual projects. Contact links for LinkedIn, email, Instagram, and YouTube are already in `index.html`.
 
 ## Publish with GitHub Pages
 

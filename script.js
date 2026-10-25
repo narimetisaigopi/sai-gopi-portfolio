@@ -30,12 +30,12 @@ mainNav.querySelectorAll('a').forEach((link) => {
 });
 
 document.getElementById('copyEmail').addEventListener('click', async () => {
-  const email = 'YOUR_EMAIL@example.com';
+  const email = 'narimetisaigopi@gmail.com';
   const button = document.getElementById('copyEmail');
   try {
     await navigator.clipboard.writeText(email);
-    button.innerHTML = 'Placeholder copied <span>✓</span>';
+    button.lastChild.textContent = ' Email copied';
   } catch {
-    button.innerHTML = 'Edit email in index.html <span>↗</span>';
+    button.lastChild.textContent = ' Couldn’t copy';
   }
 });
